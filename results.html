@@ -1,0 +1,15 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon Results</title>
+</head>
+<body>
+    <h1>Pokemon of Type: {{ selected_type }}</h1>
+    <ul>
+        {% for name in pokemon_names %}
+            <li>{{ name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
